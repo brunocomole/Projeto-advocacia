@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+
+    <title>Projeto de Site</title>
+</head>
+<body>
+    <header style="background-image: url(img/img-home.jpg);">
+        <div class="container">
+            <nav>
+                <a href="home.html">
+                    <img src="img/logo.png" height="100px" alt="logo">
+                </a>
+                <ul class="ul">
+                    <a href="home.html">Home</a>
+                    <a href="sobre.html">Sobre</a>
+                    <a href="servicos.html">Serviços</a>
+                    <a class="btn" href="contato.html" >Contato</a>
+                    <div class="close-icon" onclick="closeMenu()">
+                        <i class="fa fa-times-circle" aria-hidden="true"></i>
+                    </div>
+                </ul>
+                <div class="menu-icon" onclick="openMenu()">
+                    <i class="fa fa-bars" aria-hidden="true"></i>
+                </div>
+
+            </nav>
+            <section class="banner">
+                <div class="banner-text">
+                    <h1>Escritório de Advocacia</h1>
+                    <p>Somos um escritório de advocacia especializado em fornecer soluções jurídicas eficazes e personalizadas para nossos clientes. Com anos de experiência em diversas áreas do direito, estamos preparados para atender a todas as necessidades legais de nossos clientes.</p>
+                    <a href="contato.html" class="btn animate-btn">Entrar em contato</a>
+                </div>
+
+            </section>
+
+        </div>
+    </header>
+
+    <section class="conteudo-home">
+        <div class="container">
+            <div class="text-home">
+                <h3>Conheça melhor nosso trabalho</h3>
+                <p>Somos um escritório de advocacia especializado em fornecer soluções jurídicas eficazes e personalizadas para nossos clientes. Com anos de experiência em diversas áreas do direito, estamos preparados para atender a todas as necessidades legais de nossos clientes. 
+                   <p>Nossa equipe é formada por advogados altamente qualificados e comprometidos em buscar a melhor solução para cada caso, sempre de forma ética, transparente e eficiente. 
+                    Oferecemos serviços jurídicos em diversas áreas, incluindo direito empresarial, trabalhista, civil, imobiliário, tributário, previdenciário, entre outros. </p> 
+                   
+                </p>
+                <a href="contato.html" class="btn animate-btn">Faça Contato</a>
+            </div>
+            <div class="img-conteudo">
+               <img src="img/content-img.jpg" alt="">
+            </div>
+        </div>
+
+    </section>
+
+
+    <section class="depoimentos">
+
+        <div class="container">
+            <h3>Nossos Depoimentos</h3>
+            <p>Leia o que nossos clientes falam sobre nossos serviços</p>
+            <div class="swiper-container">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide card-item">
+                        <img src="img/logo.png" alt="Logo da empresa">
+                        <p class="nome-user">Andressa Souza</p>
+                        <p class="depoimento-user">Parabéns ao escritório de advocacia pelo excelente trabalho prestado! O profissionalismo, a ética e a responsabilidade são marcas registradas desse escritório, que superou todas as minhas expectativas. Recomendo de olhos fechados!</p>
+                    </div>
+    
+                    <div class="swiper-slide card-item">
+                        <img src="img/logo.png" alt="Logo da empresa">
+                        <p class="nome-user">Pedro Luiz</p>
+                        <p class="depoimento-user">O escritório de advocacia se destaca pela competência e comprometimento de sua equipe. Senti-me muito bem assistido e representado em todos os momentos, o que me trouxe uma tranquilidade imensa em meio aos problemas jurídicos. </p>
+                    </div>
+    
+                    <div class="swiper-slide card-item">
+                        <img src="img/logo.png" alt="Logo da empresa">
+                        <p class="nome-user">Camila Lima</p>
+                        <p class="depoimento-user"> Fiquei impressionado com a eficiência e rapidez com que meu caso foi resolvido pelo escritório de advocacia. Sem dúvida, escolher esse escritório foi a melhor decisão que poderia ter tomado.</p>
+                    </div>
+    
+                    <div class="swiper-slide card-item">
+                        <img src="img/logo.png" alt="Logo da empresa">
+                        <p class="nome-user">Mario Bross</p>
+                        <p class="depoimento-user">Recomendo o escritório de advocacia a todos que buscam um serviço de qualidade e confiança. Os advogados são altamente capacitados e dedicados, sempre buscando as melhores soluções para seus clientes.</p>
+                    </div>
+
+                    <div class="swiper-slide card-item">
+                        <img src="img/logo.png" alt="Logo da empresa">
+                        <p class="nome-user">André Cokito</p>
+                        <p class="depoimento-user">Desde que contratei os serviços deste escritório de advocacia, minha vida mudou para melhor. Eles foram eficientes, transparentes e muito atenciosos em todos os momentos. Estou muito grato pela dedicação e principalmente pelos resultados alcançados. Um escritório que eu confio plenamente.</p>
+                    </div>
+
+                    <div class="swiper-slide card-item">
+                        <img src="img/logo.png" alt="Logo da empresa">
+                        <p class="nome-user">Bob Marley</p>
+                        <p class="depoimento-user">Estou extremamente satisfeito com os serviços prestados pelo escritório de advocacia. Profissionais competentes, dedicados e comprometidos com a resolução dos meus problemas legais. Recomendo a todos que buscam um serviço de qualidade e confiança.</p>
+                    </div>
+
+                </div>
+                <div class="swiper-pagination"></div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+            </div>
+        </div>
+    
+    </section>
+
+    <footer>
+        <div id="footer_content">
+            <div id="footer_contacts">
+                
+                <div id="imgLogo"><img src="img/logo.png" alt="logo" id="logoimg"> </div>
+                <h3>Acesse as nossas redes sociais</h3>
+    
+                <div id="footer_social_media">
+                    <a href="#" class="footer_link" id="instagram">
+                        <img src="img/instagram.png" alt="Instagram">
+                    </a> 
+                    <a href="#" class="footer_link" id="facebook">
+                        <img src="img/facebook.png" alt="facebook">
+                    </a> 
+                    <a href="#" class="footer_link" id="whatsapp">
+                        <img src="./img/whatsapp.png.png" alt="whatsapp">
+                    </a>
+                </div>
+            </div>
+            <ul class="footer-list">
+                <li>
+                    <h3>Informações da empresa</h3>
+                </li>
+                <li>
+                    <p class="footer-link">Endereço: Rua da Mooca, 420</p>
+                </li>
+                <li>
+                    <p class="footer-link">E-mail: emailcliente.com </p>
+                </li>
+                <li>
+                    <p class="footer-link">Telefone: (11) 900000000</p>
+                </li>
+                
+            </ul>
+            <ul class="footer-list">
+                <li>
+                    <h3>Desenvolvedores</h3>
+                </li>
+                <li>
+                    <a href="#" class="footer-link">Bruno Comole </a>
+                </li><li>
+                    <a href="#" class="footer-link"></a>
+                </li><li>
+                    
+                
+            </ul>
+            
+         
+         </div>
+         <div id="footer_copyrigth">
+            &#169
+            2024 Bruno Comole
+            </div>
+    </footer>
+    
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+    <script src="main.js"></script>
+    
+
+
+</body>
+</html>
